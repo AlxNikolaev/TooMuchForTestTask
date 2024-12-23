@@ -1,0 +1,13 @@
+.root {
+	background-color: var(--color-bg1);
+	padding: 10px;
+	display: flex;
+	min-width: max-content;
+	justify-content: center;
+	align-items: center;
+	color: var(--color-bg-primary)
+}
+
+.label {
+	flex: 1;
+}

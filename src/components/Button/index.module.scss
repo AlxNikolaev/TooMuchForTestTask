@@ -1,0 +1,25 @@
+.root {
+	border: none;
+	padding: 5px;
+	color: white;
+
+	&.XS{
+		min-width: none;
+	}
+
+	&.M {
+		min-width: 90px;
+	}
+}
+
+.green {
+	background-color: var(--color-green);
+}
+
+.red {
+	background-color: var(--color-red);
+}
+
+.transparent {
+	background-color: transparent;
+}

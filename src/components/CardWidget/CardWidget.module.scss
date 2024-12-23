@@ -1,0 +1,24 @@
+.cardWidget {
+  max-width: 500px;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selectBox {
+  background-color: var(--color-bg2);
+  color: var(--color-bg-primary)
+}
+
+.selectedItems {
+	display: flex;
+	flex-direction: row;
+  gap: 5px;
+}
+
+.scrollBox {
+  height: 300px;
+  overflow-y: scroll;
+  background-color: var(--color-bg1);
+}
